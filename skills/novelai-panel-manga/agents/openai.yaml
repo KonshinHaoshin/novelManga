@@ -1,0 +1,7 @@
+interface:
+
+  display_name: "NovelAI 分镜漫画"
+
+  short_description: "用 character 槽编排自由分镜、大小格混排、插入格与中文对白"
+
+  default_prompt: "使用 $novelai-panel-manga 把这段剧情编成有大小格变化的漫画整页，先给版式草图和阅读顺序，再给主提示词与 character 槽，保留原台词。"

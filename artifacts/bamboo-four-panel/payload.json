@@ -1,0 +1,124 @@
+{
+  "action": "generate",
+  "input": "2girls, manga, monochrome, high complexity, text, chinese text, very aesthetic, amazing quality. A single Chinese xianxia manga page set in a misty bamboo forest, with exactly four clearly separated panels and white gutters. One wide horizontal panel spans the entire top; beneath it are one small panel on the middle-left and one tall vertical panel on the middle-right; one wide horizontal panel spans the entire bottom. Read the top panel first, then middle-left, then middle-right, then the bottom panel. The recurring pale-haired traveler is the same person in panels 1, 2 and 4; the dark-haired wounded woman appears in panel 3. The cast consists of only these two people. All dialogue and thought bubbles contain Chinese text.\nText: 采完这株七星草，换了下品灵石就能去山下喝仙酿、摸鱼躺平啦～\n\n滴答……\n\n……滚开。别碰我。\n\n哇！这位仙子姐姐伤得好重！别逞强啦，遇到我算你走运哦！",
+  "model": "nai-diffusion-5-full",
+  "parameters": {
+    "add_original_image": false,
+    "autoSmea": false,
+    "cfg_rescale": 0.0,
+    "deliberate_euler_ancestral_bug": false,
+    "dynamic_thresholding": false,
+    "height": 1216,
+    "image_format": "png",
+    "legacy": false,
+    "legacy_uc": false,
+    "n_samples": 1,
+    "negative_prompt": "lowres, worst quality, bad quality, jpeg artifacts, bad anatomy, bad hands, watermark, signature",
+    "noise": 0.0,
+    "noise_schedule": "karras",
+    "params_version": 3,
+    "prefer_brownian": true,
+    "prompt": "2girls, manga, monochrome, high complexity, text, chinese text, very aesthetic, amazing quality. A single Chinese xianxia manga page set in a misty bamboo forest, with exactly four clearly separated panels and white gutters. One wide horizontal panel spans the entire top; beneath it are one small panel on the middle-left and one tall vertical panel on the middle-right; one wide horizontal panel spans the entire bottom. Read the top panel first, then middle-left, then middle-right, then the bottom panel. The recurring pale-haired traveler is the same person in panels 1, 2 and 4; the dark-haired wounded woman appears in panel 3. The cast consists of only these two people. All dialogue and thought bubbles contain Chinese text.\nText: 采完这株七星草，换了下品灵石就能去山下喝仙酿、摸鱼躺平啦～\n\n滴答……\n\n……滚开。别碰我。\n\n哇！这位仙子姐姐伤得好重！别逞强啦，遇到我算你走运哦！",
+    "qualityToggle": false,
+    "sampler": "k_euler_ancestral",
+    "scale": 5.0,
+    "seed": 20261101,
+    "sm": false,
+    "sm_dyn": false,
+    "steps": 28,
+    "strength": 0.550000011920929,
+    "tag_hint_uc_preset": 2,
+    "ucPreset": 2,
+    "use_coords": true,
+    "v4_negative_prompt": {
+      "caption": {
+        "base_caption": "lowres, worst quality, bad quality, jpeg artifacts, bad anatomy, bad hands, watermark, signature",
+        "char_captions": [
+          {
+            "centers": [
+              {
+                "x": 0.5,
+                "y": 0.1599999964237213
+              }
+            ],
+            "char_caption": ""
+          },
+          {
+            "centers": [
+              {
+                "x": 0.25,
+                "y": 0.49000000953674316
+              }
+            ],
+            "char_caption": ""
+          },
+          {
+            "centers": [
+              {
+                "x": 0.75,
+                "y": 0.5
+              }
+            ],
+            "char_caption": ""
+          },
+          {
+            "centers": [
+              {
+                "x": 0.5,
+                "y": 0.8399999737739563
+              }
+            ],
+            "char_caption": ""
+          }
+        ]
+      },
+      "legacy_uc": false
+    },
+    "v4_prompt": {
+      "caption": {
+        "base_caption": "2girls, manga, monochrome, high complexity, text, chinese text, very aesthetic, amazing quality. A single Chinese xianxia manga page set in a misty bamboo forest, with exactly four clearly separated panels and white gutters. One wide horizontal panel spans the entire top; beneath it are one small panel on the middle-left and one tall vertical panel on the middle-right; one wide horizontal panel spans the entire bottom. Read the top panel first, then middle-left, then middle-right, then the bottom panel. The recurring pale-haired traveler is the same person in panels 1, 2 and 4; the dark-haired wounded woman appears in panel 3. The cast consists of only these two people. All dialogue and thought bubbles contain Chinese text.\nText: 采完这株七星草，换了下品灵石就能去山下喝仙酿、摸鱼躺平啦～\n\n滴答……\n\n……滚开。别碰我。\n\n哇！这位仙子姐姐伤得好重！别逞强啦，遇到我算你走运哦！",
+        "char_captions": [
+          {
+            "centers": [
+              {
+                "x": 0.5,
+                "y": 0.1599999964237213
+              }
+            ],
+            "char_caption": "In the wide top panel, wide shot, eye-level view: girl, chihaya_anon, pale hair, simple travel robes, a worn bamboo basket on her back, a cheap sword sheathed at her waist. She walks leisurely through the misty bamboo forest, biting a blade of grass; bamboo sways in the strong wind. A thought bubble belonging to the pale-haired traveler reads \"采完这株七星草，换了下品灵石就能去山下喝仙酿、摸鱼躺平啦～\"."
+          },
+          {
+            "centers": [
+              {
+                "x": 0.25,
+                "y": 0.49000000953674316
+              }
+            ],
+            "char_caption": "In the small middle-left panel, medium shot from a downward angle, with her face and stepping foot both in view: girl, chihaya_anon, pale hair, simple travel robes, a worn bamboo basket on her back, a cheap sword sheathed at her waist. The pale-haired traveler looks down in shock, a sweat drop on her cheek, one foot stepping into a dark puddle of blood on the forest ground. Small sound-effect lettering near the puddle reads \"滴答……\"."
+          },
+          {
+            "centers": [
+              {
+                "x": 0.75,
+                "y": 0.5
+              }
+            ],
+            "char_caption": "In the tall vertical middle-right panel, medium shot: girl, togawa_sakiko, dark hair loose and disheveled, pale frail face, bloodstained white robes. The wounded woman slumps against gnarled tree roots in the bamboo forest, weak but guarded, eyes half-open with a sharp cold glare. A jagged speech bubble belonging to the wounded dark-haired woman reads \"……滚开。别碰我。\"."
+          },
+          {
+            "centers": [
+              {
+                "x": 0.5,
+                "y": 0.8399999737739563
+              }
+            ],
+            "char_caption": "In the wide bottom panel, tight facial close-up: girl, chihaya_anon, pale hair, the collar of her simple travel robes visible. The pale-haired traveler crouches down close to the wounded woman's eye level, with wide sparkling curious eyes and a warm energetic smile. Her face fills the panel. A speech bubble belonging to the pale-haired traveler reads \"哇！这位仙子姐姐伤得好重！别逞强啦，遇到我算你走运哦！\"."
+          }
+        ]
+      },
+      "use_coords": true,
+      "use_order": true
+    },
+    "width": 832
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "actualRequestMatchesDryRun": true,
+  "image": "G:\\git\\novelManga\\artifacts\\anon-practice-gray-domain\\outputs\\novelai-1793522992684763800-36548\\novelai-0.png",
+  "seed": 20261102,
+  "visualChecks": {
+    "fourPanelsTwoByTwo": "pass",
+    "characterOrderAnonSoyoAnonSoyo": "pass",
+    "dialoguePlacement": "pass",
+    "chineseDialogue": "visually readable; no OCR verification",
+    "monochrome": "failed: output is colored",
+    "grayDomainArtistRecognition": "unverified"
+  }
+}

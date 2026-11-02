@@ -1,0 +1,122 @@
+{
+  "readingDirection": "left-to-right, top-to-bottom with the stated spanning-panel order",
+  "mainPanelCount": 5,
+  "insetCount": 1,
+  "totalPanelCount": 6,
+  "panels": [
+    {
+      "id": "P1",
+      "order": 1,
+      "bbox": [
+        0.04,
+        0.04,
+        0.96,
+        0.25
+      ],
+      "parent": null,
+      "role": "Anon establishing shot",
+      "slots": [
+        1
+      ],
+      "subjectCenter": [
+        0.35,
+        0.15
+      ]
+    },
+    {
+      "id": "P2",
+      "order": 2,
+      "bbox": [
+        0.04,
+        0.28,
+        0.32,
+        0.6
+      ],
+      "parent": null,
+      "role": "Soyo question, spans both middle rows",
+      "slots": [
+        2
+      ],
+      "subjectCenter": [
+        0.18,
+        0.44
+      ]
+    },
+    {
+      "id": "P3",
+      "order": 3,
+      "bbox": [
+        0.35,
+        0.28,
+        0.96,
+        0.43
+      ],
+      "parent": null,
+      "role": "Anon blurts out the selfie count",
+      "slots": [
+        3
+      ],
+      "subjectCenter": [
+        0.58,
+        0.35
+      ]
+    },
+    {
+      "id": "P4",
+      "order": 4,
+      "bbox": [
+        0.35,
+        0.46,
+        0.96,
+        0.6
+      ],
+      "parent": null,
+      "role": "Anon realizes the misunderstanding",
+      "slots": [
+        4
+      ],
+      "subjectCenter": [
+        0.6,
+        0.53
+      ]
+    },
+    {
+      "id": "P5",
+      "order": 5,
+      "bbox": [
+        0.06,
+        0.65,
+        0.28,
+        0.79
+      ],
+      "parent": "P6",
+      "role": "Silent phone-gallery inset",
+      "slots": [
+        5
+      ],
+      "subjectCenter": [
+        0.17,
+        0.72
+      ]
+    },
+    {
+      "id": "P6",
+      "order": 6,
+      "bbox": [
+        0.04,
+        0.63,
+        0.96,
+        0.96
+      ],
+      "parent": null,
+      "role": "Soyo punchline, large closing panel",
+      "slots": [
+        6
+      ],
+      "subjectCenter": [
+        0.65,
+        0.8
+      ]
+    }
+  ]
+}

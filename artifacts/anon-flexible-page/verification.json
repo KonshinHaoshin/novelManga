@@ -1,0 +1,36 @@
+{
+  "model": "nai-diffusion-5-full",
+  "seed": 20261103,
+  "size": [
+    832,
+    1216
+  ],
+  "sourceDialoguePreservedBeyondWrappingAndSplitting": true,
+  "visualChecks": {
+    "fullWidthOpeningPanel": "pass in both samples",
+    "leftPanelSpansTwoRightPanels": "pass in both samples",
+    "twoSmallHorizontalPanelsOnRight": "pass in both samples",
+    "fullWidthClosingPanel": "pass in both samples",
+    "phoneInsetInsideClosingPanel": "first sample: floating phone, no separate inset frame; revised sample: separate bordered inset achieved",
+    "totalPanelsInRevisedSample": "5 main panels plus 1 inset",
+    "characterAndDialogueMapping": "visually correct, no OCR verification",
+    "phoneGalleryDetail": "partial: revised sample has six thumbnails rather than the requested nine",
+    "preciseNumericPanelBoundaries": "not guaranteed or pixel-measured",
+    "monochrome": "not followed; both outputs are colored",
+    "grayDomainArtistRecognition": "unverified",
+    "diagonalPanelsBleedAndBorderBreaking": "instructions added, no generation tests",
+    "crossSeedReliability": "not tested"
+  },
+  "runs": [
+    {
+      "image": "G:\\git\\novelManga\\artifacts\\anon-flexible-page\\outputs\\novelai-1793523301373908900-48880\\novelai-0.png",
+      "generationRecord": "G:\\git\\novelManga\\artifacts\\anon-flexible-page\\outputs\\novelai-1793523301373908900-48880\\generation.json",
+      "actualRequestMatchesDryRun": true
+    },
+    {
+      "image": "G:\\git\\novelManga\\artifacts\\anon-flexible-page\\outputs-revision-1\\novelai-1793523365002116600-39108\\novelai-0.png",
+      "generationRecord": "G:\\git\\novelManga\\artifacts\\anon-flexible-page\\outputs-revision-1\\novelai-1793523365002116600-39108\\generation.json",
+      "actualRequestMatchesDryRun": true
+    }
+  ]
+}

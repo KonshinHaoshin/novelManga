@@ -1,0 +1,172 @@
+{
+  "contentType": "binary/octet-stream",
+  "directory": "\\\\?\\G:\\git\\novelManga\\artifacts\\anon-flexible-page\\outputs\\novelai-1793523301373908900-48880",
+  "images": [
+    {
+      "byteLen": 1257813,
+      "mimeType": "image/png",
+      "path": "\\\\?\\G:\\git\\novelManga\\artifacts\\anon-flexible-page\\outputs\\novelai-1793523301373908900-48880\\novelai-0.png",
+      "seed": null
+    }
+  ],
+  "request": {
+    "action": "generate",
+    "input": "2girls, artist:gray domain, manga, monochrome, high complexity, text, chinese text, very aesthetic, amazing quality. A single portrait manga page with five main panels and one bordered inset, six panels in total. A shallow wide establishing panel spans the top. In the middle band, a narrow tall panel on the left spans the combined height of two smaller horizontal panels stacked on the right. One large wide closing panel spans the bottom. A small phone-detail inset is embedded in the upper-left corner of this closing panel, leaving the closing speaker's face and speech bubble unobstructed on the right. Read the top panel first, then the tall middle-left panel, the upper middle-right panel, the lower middle-right panel, the phone inset, and finally the large closing panel. Use clearly visible gutters between main panels; the inset is the only intentional overlap. Panel identifiers are planning labels and are not printed in the artwork. The scene is a cozy band rehearsal room. The same Chihaya Anon appears in the top panel and both small middle-right panels; the same Nagasaki Soyo appears in the tall middle-left panel and the large closing panel. The inset shows Anon's smartphone gallery, not a new person. Their clothes and appearances remain consistent. A guitar on a stand, an amplifier, and acoustic wall panels establish the continuous setting. Expressive faces and subtle comedic timing. Leave generous white space in speech bubbles for clear horizontal Chinese lettering.\nText: 素世，我练到手都酸啦！\n\n哦？\n今天练了几首？\n\n四十五张……\n\n啊，你问练琴啊。\n\n难怪。\n酸的是举手机那只手吧。",
+    "model": "nai-diffusion-5-full",
+    "parameters": {
+      "add_original_image": false,
+      "autoSmea": false,
+      "cfg_rescale": 0.0,
+      "deliberate_euler_ancestral_bug": false,
+      "dynamic_thresholding": false,
+      "height": 1216,
+      "image_format": "png",
+      "legacy": false,
+      "legacy_uc": false,
+      "n_samples": 1,
+      "negative_prompt": "lowres, worst quality, bad quality, jpeg artifacts, bad anatomy, bad hands, watermark, signature",
+      "noise": 0.0,
+      "noise_schedule": "karras",
+      "params_version": 3,
+      "prefer_brownian": true,
+      "prompt": "2girls, artist:gray domain, manga, monochrome, high complexity, text, chinese text, very aesthetic, amazing quality. A single portrait manga page with five main panels and one bordered inset, six panels in total. A shallow wide establishing panel spans the top. In the middle band, a narrow tall panel on the left spans the combined height of two smaller horizontal panels stacked on the right. One large wide closing panel spans the bottom. A small phone-detail inset is embedded in the upper-left corner of this closing panel, leaving the closing speaker's face and speech bubble unobstructed on the right. Read the top panel first, then the tall middle-left panel, the upper middle-right panel, the lower middle-right panel, the phone inset, and finally the large closing panel. Use clearly visible gutters between main panels; the inset is the only intentional overlap. Panel identifiers are planning labels and are not printed in the artwork. The scene is a cozy band rehearsal room. The same Chihaya Anon appears in the top panel and both small middle-right panels; the same Nagasaki Soyo appears in the tall middle-left panel and the large closing panel. The inset shows Anon's smartphone gallery, not a new person. Their clothes and appearances remain consistent. A guitar on a stand, an amplifier, and acoustic wall panels establish the continuous setting. Expressive faces and subtle comedic timing. Leave generous white space in speech bubbles for clear horizontal Chinese lettering.\nText: 素世，我练到手都酸啦！\n\n哦？\n今天练了几首？\n\n四十五张……\n\n啊，你问练琴啊。\n\n难怪。\n酸的是举手机那只手吧。",
+      "qualityToggle": false,
+      "sampler": "k_euler_ancestral",
+      "scale": 5.0,
+      "seed": 20261103,
+      "sm": false,
+      "sm_dyn": false,
+      "steps": 28,
+      "strength": 0.550000011920929,
+      "tag_hint_uc_preset": 2,
+      "ucPreset": 2,
+      "use_coords": true,
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, worst quality, bad quality, jpeg artifacts, bad anatomy, bad hands, watermark, signature",
+          "char_captions": [
+            {
+              "centers": [
+                {
+                  "x": 0.3499999940395355,
+                  "y": 0.15000000596046448
+                }
+              ],
+              "char_caption": ""
+            },
+            {
+              "centers": [
+                {
+                  "x": 0.18000000715255737,
+                  "y": 0.4399999976158142
+                }
+              ],
+              "char_caption": ""
+            },
+            {
+              "centers": [
+                {
+                  "x": 0.5799999833106995,
+                  "y": 0.3499999940395355
+                }
+              ],
+              "char_caption": ""
+            },
+            {
+              "centers": [
+                {
+                  "x": 0.6000000238418579,
+                  "y": 0.5299999713897705
+                }
+              ],
+              "char_caption": ""
+            },
+            {
+              "centers": [
+                {
+                  "x": 0.17000000178813934,
+                  "y": 0.7200000286102295
+                }
+              ],
+              "char_caption": ""
+            },
+            {
+              "centers": [
+                {
+                  "x": 0.6499999761581421,
+                  "y": 0.800000011920929
+                }
+              ],
+              "char_caption": ""
+            }
+          ]
+        },
+        "legacy_uc": false
+      },
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "2girls, artist:gray domain, manga, monochrome, high complexity, text, chinese text, very aesthetic, amazing quality. A single portrait manga page with five main panels and one bordered inset, six panels in total. A shallow wide establishing panel spans the top. In the middle band, a narrow tall panel on the left spans the combined height of two smaller horizontal panels stacked on the right. One large wide closing panel spans the bottom. A small phone-detail inset is embedded in the upper-left corner of this closing panel, leaving the closing speaker's face and speech bubble unobstructed on the right. Read the top panel first, then the tall middle-left panel, the upper middle-right panel, the lower middle-right panel, the phone inset, and finally the large closing panel. Use clearly visible gutters between main panels; the inset is the only intentional overlap. Panel identifiers are planning labels and are not printed in the artwork. The scene is a cozy band rehearsal room. The same Chihaya Anon appears in the top panel and both small middle-right panels; the same Nagasaki Soyo appears in the tall middle-left panel and the large closing panel. The inset shows Anon's smartphone gallery, not a new person. Their clothes and appearances remain consistent. A guitar on a stand, an amplifier, and acoustic wall panels establish the continuous setting. Expressive faces and subtle comedic timing. Leave generous white space in speech bubbles for clear horizontal Chinese lettering.\nText: 素世，我练到手都酸啦！\n\n哦？\n今天练了几首？\n\n四十五张……\n\n啊，你问练琴啊。\n\n难怪。\n酸的是举手机那只手吧。",
+          "char_captions": [
+            {
+              "centers": [
+                {
+                  "x": 0.3499999940395355,
+                  "y": 0.15000000596046448
+                }
+              ],
+              "char_caption": "In the shallow full-width top panel, medium shot: girl, chihaya_anon, long pink hair, blue eyes, white oversized hoodie. Anon proudly rubs her right wrist with her left hand, with a bright self-satisfied smile as she talks to Soyo outside the panel. Her untouched electric guitar rests on a stand behind her. A spacious speech bubble on the right belongs to Anon and reads \"素世，我练到手都酸啦！\"."
+            },
+            {
+              "centers": [
+                {
+                  "x": 0.18000000715255737,
+                  "y": 0.4399999976158142
+                }
+              ],
+              "char_caption": "In the narrow middle-left panel spanning both middle rows, medium close-up: girl, nagasaki_soyo, long light brown hair, green eyes, beige knitted cardigan over a white blouse. Soyo tilts her head slightly and looks toward Anon outside the panel with gentle curiosity. The tall narrow panel has room above her head for a white speech bubble. The bubble belongs to Soyo and reads \"哦？\n今天练了几首？\"."
+            },
+            {
+              "centers": [
+                {
+                  "x": 0.5799999833106995,
+                  "y": 0.3499999940395355
+                }
+              ],
+              "char_caption": "In the small upper middle-right panel, facial close-up: girl, chihaya_anon, long pink hair, blue eyes, white oversized hoodie. Anon enthusiastically blurts out a number with a confident open-mouthed smile. A small speech bubble belonging to Anon reads \"四十五张……\"."
+            },
+            {
+              "centers": [
+                {
+                  "x": 0.6000000238418579,
+                  "y": 0.5299999713897705
+                }
+              ],
+              "char_caption": "In the small lower middle-right panel directly below the previous Anon close-up, facial close-up: girl, chihaya_anon, long pink hair, blue eyes, white oversized hoodie. Her smile freezes into an embarrassed sheepish expression, with a small sweat drop on her cheek, as she realizes Soyo meant guitar practice. A speech bubble belonging to Anon reads \"啊，你问练琴啊。\"."
+            },
+            {
+              "centers": [
+                {
+                  "x": 0.17000000178813934,
+                  "y": 0.7200000286102295
+                }
+              ],
+              "char_caption": "Inside the small bordered phone inset embedded in the upper-left corner of the large bottom panel, extreme close-up: a smartphone screen displaying a grid of repeated selfies of the same pink-haired Anon posing beside her guitar. Only the smartphone, the edge of a hand and a white hoodie sleeve fill this small inset. Silent object detail, without a speech bubble or readable interface labels. The inset is contained inside the bottom panel and leaves Soyo's face and dialogue clear on its right."
+            },
+            {
+              "centers": [
+                {
+                  "x": 0.6499999761581421,
+                  "y": 0.800000011920929
+                }
+              ],
+              "char_caption": "In the large full-width bottom closing panel surrounding the small phone inset, close-up: girl, nagasaki_soyo, long light brown hair, green eyes, beige knitted cardigan over a white blouse. Soyo rests her cheek on one hand, giving Anon a knowing, gently teasing smile with half-lidded eyes. Her face occupies the right half of this wide panel; leave the upper-left area for the separate bordered phone inset. A spacious speech bubble above and to the right of Soyo belongs to her and reads \"难怪。\n酸的是举手机那只手吧。\"."
+            }
+          ]
+        },
+        "use_coords": true,
+        "use_order": true
+      },
+      "width": 832
+    }
+  }
+}

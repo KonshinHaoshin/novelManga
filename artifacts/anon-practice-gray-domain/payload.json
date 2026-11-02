@@ -1,0 +1,124 @@
+{
+  "action": "generate",
+  "input": "2girls, artist:gray domain, manga, monochrome, high complexity, text, chinese text, very aesthetic, amazing quality. A single four-panel slice-of-life comedy manga page set in a cozy band rehearsal room. Exactly four rectangular panels arranged in a clean two-by-two grid, separated by white gutters. Read top-left, top-right, bottom-left, then bottom-right. Chihaya Anon appears in panels 1 and 3; Nagasaki Soyo appears in panels 2 and 4. Their appearances remain consistent across panels. A guitar on a stand, an amplifier, and acoustic wall panels establish the continuous setting. Expressive faces and subtle comedic timing. Leave generous white space inside speech bubbles for clear horizontal Chinese lettering.\nText: 素世，我练到手都酸啦！\n\n哦？今天练了几首？\n\n四十五张……\n啊，你问练琴啊。\n\n难怪。\n酸的是举手机那只手吧。",
+  "model": "nai-diffusion-5-full",
+  "parameters": {
+    "add_original_image": false,
+    "autoSmea": false,
+    "cfg_rescale": 0.0,
+    "deliberate_euler_ancestral_bug": false,
+    "dynamic_thresholding": false,
+    "height": 1024,
+    "image_format": "png",
+    "legacy": false,
+    "legacy_uc": false,
+    "n_samples": 1,
+    "negative_prompt": "lowres, worst quality, bad quality, jpeg artifacts, bad anatomy, bad hands, watermark, signature",
+    "noise": 0.0,
+    "noise_schedule": "karras",
+    "params_version": 3,
+    "prefer_brownian": true,
+    "prompt": "2girls, artist:gray domain, manga, monochrome, high complexity, text, chinese text, very aesthetic, amazing quality. A single four-panel slice-of-life comedy manga page set in a cozy band rehearsal room. Exactly four rectangular panels arranged in a clean two-by-two grid, separated by white gutters. Read top-left, top-right, bottom-left, then bottom-right. Chihaya Anon appears in panels 1 and 3; Nagasaki Soyo appears in panels 2 and 4. Their appearances remain consistent across panels. A guitar on a stand, an amplifier, and acoustic wall panels establish the continuous setting. Expressive faces and subtle comedic timing. Leave generous white space inside speech bubbles for clear horizontal Chinese lettering.\nText: 素世，我练到手都酸啦！\n\n哦？今天练了几首？\n\n四十五张……\n啊，你问练琴啊。\n\n难怪。\n酸的是举手机那只手吧。",
+    "qualityToggle": false,
+    "sampler": "k_euler_ancestral",
+    "scale": 5.0,
+    "seed": 20261102,
+    "sm": false,
+    "sm_dyn": false,
+    "steps": 28,
+    "strength": 0.550000011920929,
+    "tag_hint_uc_preset": 2,
+    "ucPreset": 2,
+    "use_coords": true,
+    "v4_negative_prompt": {
+      "caption": {
+        "base_caption": "lowres, worst quality, bad quality, jpeg artifacts, bad anatomy, bad hands, watermark, signature",
+        "char_captions": [
+          {
+            "centers": [
+              {
+                "x": 0.25,
+                "y": 0.25
+              }
+            ],
+            "char_caption": ""
+          },
+          {
+            "centers": [
+              {
+                "x": 0.75,
+                "y": 0.25
+              }
+            ],
+            "char_caption": ""
+          },
+          {
+            "centers": [
+              {
+                "x": 0.25,
+                "y": 0.75
+              }
+            ],
+            "char_caption": ""
+          },
+          {
+            "centers": [
+              {
+                "x": 0.75,
+                "y": 0.75
+              }
+            ],
+            "char_caption": ""
+          }
+        ]
+      },
+      "legacy_uc": false
+    },
+    "v4_prompt": {
+      "caption": {
+        "base_caption": "2girls, artist:gray domain, manga, monochrome, high complexity, text, chinese text, very aesthetic, amazing quality. A single four-panel slice-of-life comedy manga page set in a cozy band rehearsal room. Exactly four rectangular panels arranged in a clean two-by-two grid, separated by white gutters. Read top-left, top-right, bottom-left, then bottom-right. Chihaya Anon appears in panels 1 and 3; Nagasaki Soyo appears in panels 2 and 4. Their appearances remain consistent across panels. A guitar on a stand, an amplifier, and acoustic wall panels establish the continuous setting. Expressive faces and subtle comedic timing. Leave generous white space inside speech bubbles for clear horizontal Chinese lettering.\nText: 素世，我练到手都酸啦！\n\n哦？今天练了几首？\n\n四十五张……\n啊，你问练琴啊。\n\n难怪。\n酸的是举手机那只手吧。",
+        "char_captions": [
+          {
+            "centers": [
+              {
+                "x": 0.25,
+                "y": 0.25
+              }
+            ],
+            "char_caption": "In the top-left panel, medium shot at eye level: girl, chihaya_anon, long pink hair, blue eyes, white oversized hoodie. Anon proudly rubs her right wrist with her left hand, wearing a bright, self-satisfied smile as she talks to Soyo outside the panel. Her electric guitar rests untouched on a stand behind her. A speech bubble belonging to Anon reads \"素世，我练到手都酸啦！\"."
+          },
+          {
+            "centers": [
+              {
+                "x": 0.75,
+                "y": 0.25
+              }
+            ],
+            "char_caption": "In the top-right panel, medium close-up: girl, nagasaki_soyo, long light brown hair, green eyes, beige knitted cardigan over a white blouse. Soyo tilts her head slightly, looking toward Anon outside the panel with a gentle, curious expression. The rehearsal room's acoustic wall panels are visible behind her. A speech bubble belonging to Soyo reads \"哦？今天练了几首？\"."
+          },
+          {
+            "centers": [
+              {
+                "x": 0.25,
+                "y": 0.75
+              }
+            ],
+            "char_caption": "In the bottom-left panel, close-up: girl, chihaya_anon, long pink hair, blue eyes, white oversized hoodie. Anon eagerly holds up her smartphone, showing a gallery grid filled with selfies of herself posing beside her guitar. Her confident smile freezes into an embarrassed expression as she realizes her mistake, with a small sweat drop on her cheek. Reserve a large speech bubble above her shoulder. The bubble belonging to Anon reads in two horizontal lines \"四十五张……\n啊，你问练琴啊。\"."
+          },
+          {
+            "centers": [
+              {
+                "x": 0.75,
+                "y": 0.75
+              }
+            ],
+            "char_caption": "In the bottom-right panel, tight facial close-up: girl, nagasaki_soyo, long light brown hair, green eyes, beige knitted cardigan over a white blouse. Soyo rests her cheek lightly against one hand, giving Anon a knowing, gently teasing smile with half-lidded eyes. Keep the background sparse to emphasize the punchline. A spacious speech bubble belonging to Soyo reads in two horizontal lines \"难怪。\n酸的是举手机那只手吧。\"."
+          }
+        ]
+      },
+      "use_coords": true,
+      "use_order": true
+    },
+    "width": 1024
+  }
+}
